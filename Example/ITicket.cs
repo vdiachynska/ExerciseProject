@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Example
 {
-    internal interface Interface1
+    public interface ITicket
     {
+        void AddTicket(ITicket ticket);
+        ITicket GetTicket(int id);
     }
+
+    
 }

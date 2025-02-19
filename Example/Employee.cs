@@ -1,7 +1,6 @@
 ﻿namespace Lecture5;
 public class Employee
     {
-        
         public virtual void DisplayInfo() {
             Console.WriteLine($"{this.GetType().Name}: general information");
         }
